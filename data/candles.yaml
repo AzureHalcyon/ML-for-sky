@@ -1,0 +1,10 @@
+# YOLOv8 蜡烛检测数据集
+
+path: data/candles
+train: images/train
+val: images/val
+
+nc: 2
+names:
+  - candle_small
+  - candle_big
