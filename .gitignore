@@ -58,3 +58,4 @@ Thumbs.db
 *.cache
 /data/candles/images/train
 /data/candles/images/val
+/data/recordings

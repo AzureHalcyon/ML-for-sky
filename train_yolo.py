@@ -15,11 +15,11 @@ def train():
     # 训练
     results = model.train(
         data="data/candles.yaml",
-        epochs=100,
+        epochs=50,
         imgsz=640,
         batch=8,
         device=0,  # GPU
-        workers=0
+        workers=2
     )
     
     # 保存
